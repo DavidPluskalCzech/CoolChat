@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAAF43DB20F77B5700E091E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAF43DA20F77B5700E091E9 /* AppDelegate.swift */; };
+		AAAF43DD20F77B5700E091E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAF43DC20F77B5700E091E9 /* ViewController.swift */; };
+		AAAF43E020F77B5700E091E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAF43DE20F77B5700E091E9 /* Main.storyboard */; };
+		AAAF43E220F77B5D00E091E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAF43E120F77B5D00E091E9 /* Assets.xcassets */; };
+		AAAF43E520F77B5D00E091E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAF43E320F77B5D00E091E9 /* LaunchScreen.storyboard */; };
+		AAAF43F020F77B5D00E091E9 /* CoolChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAF43EF20F77B5D00E091E9 /* CoolChatTests.swift */; };
+		AAAF43FB20F77B5D00E091E9 /* CoolChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAF43FA20F77B5D00E091E9 /* CoolChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAAF43EC20F77B5D00E091E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAAF43CF20F77B5700E091E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAAF43D620F77B5700E091E9;
+			remoteInfo = CoolChat;
+		};
+		AAAF43F720F77B5D00E091E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAAF43CF20F77B5700E091E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAAF43D620F77B5700E091E9;
+			remoteInfo = CoolChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAAF43D720F77B5700E091E9 /* CoolChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAF43DA20F77B5700E091E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAAF43DC20F77B5700E091E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAAF43DF20F77B5700E091E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAAF43E120F77B5D00E091E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAAF43E420F77B5D00E091E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAAF43E620F77B5D00E091E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAAF43EB20F77B5D00E091E9 /* CoolChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAF43EF20F77B5D00E091E9 /* CoolChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolChatTests.swift; sourceTree = "<group>"; };
+		AAAF43F120F77B5D00E091E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAAF43F620F77B5D00E091E9 /* CoolChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAF43FA20F77B5D00E091E9 /* CoolChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolChatUITests.swift; sourceTree = "<group>"; };
+		AAAF43FC20F77B5D00E091E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAAF43D420F77B5700E091E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAF43E820F77B5D00E091E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAF43F320F77B5D00E091E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAAF43CE20F77B5700E091E9 = {
+			isa = PBXGroup;
+			children = (
+				AAAF43D920F77B5700E091E9 /* CoolChat */,
+				AAAF43EE20F77B5D00E091E9 /* CoolChatTests */,
+				AAAF43F920F77B5D00E091E9 /* CoolChatUITests */,
+				AAAF43D820F77B5700E091E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAAF43D820F77B5700E091E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAAF43D720F77B5700E091E9 /* CoolChat.app */,
+				AAAF43EB20F77B5D00E091E9 /* CoolChatTests.xctest */,
+				AAAF43F620F77B5D00E091E9 /* CoolChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAAF43D920F77B5700E091E9 /* CoolChat */ = {
+			isa = PBXGroup;
+			children = (
+				AAAF43DA20F77B5700E091E9 /* AppDelegate.swift */,
+				AAAF43DC20F77B5700E091E9 /* ViewController.swift */,
+				AAAF43DE20F77B5700E091E9 /* Main.storyboard */,
+				AAAF43E120F77B5D00E091E9 /* Assets.xcassets */,
+				AAAF43E320F77B5D00E091E9 /* LaunchScreen.storyboard */,
+				AAAF43E620F77B5D00E091E9 /* Info.plist */,
+			);
+			path = CoolChat;
+			sourceTree = "<group>";
+		};
+		AAAF43EE20F77B5D00E091E9 /* CoolChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAAF43EF20F77B5D00E091E9 /* CoolChatTests.swift */,
+				AAAF43F120F77B5D00E091E9 /* Info.plist */,
+			);
+			path = CoolChatTests;
+			sourceTree = "<group>";
+		};
+		AAAF43F920F77B5D00E091E9 /* CoolChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAAF43FA20F77B5D00E091E9 /* CoolChatUITests.swift */,
+				AAAF43FC20F77B5D00E091E9 /* Info.plist */,
+			);
+			path = CoolChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAAF43D620F77B5700E091E9 /* CoolChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAAF43FF20F77B5D00E091E9 /* Build configuration list for PBXNativeTarget "CoolChat" */;
+			buildPhases = (
+				AAAF43D320F77B5700E091E9 /* Sources */,
+				AAAF43D420F77B5700E091E9 /* Frameworks */,
+				AAAF43D520F77B5700E091E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolChat;
+			productName = CoolChat;
+			productReference = AAAF43D720F77B5700E091E9 /* CoolChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAAF43EA20F77B5D00E091E9 /* CoolChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAAF440220F77B5D00E091E9 /* Build configuration list for PBXNativeTarget "CoolChatTests" */;
+			buildPhases = (
+				AAAF43E720F77B5D00E091E9 /* Sources */,
+				AAAF43E820F77B5D00E091E9 /* Frameworks */,
+				AAAF43E920F77B5D00E091E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAAF43ED20F77B5D00E091E9 /* PBXTargetDependency */,
+			);
+			name = CoolChatTests;
+			productName = CoolChatTests;
+			productReference = AAAF43EB20F77B5D00E091E9 /* CoolChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAAF43F520F77B5D00E091E9 /* CoolChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAAF440520F77B5D00E091E9 /* Build configuration list for PBXNativeTarget "CoolChatUITests" */;
+			buildPhases = (
+				AAAF43F220F77B5D00E091E9 /* Sources */,
+				AAAF43F320F77B5D00E091E9 /* Frameworks */,
+				AAAF43F420F77B5D00E091E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAAF43F820F77B5D00E091E9 /* PBXTargetDependency */,
+			);
+			name = CoolChatUITests;
+			productName = CoolChatUITests;
+			productReference = AAAF43F620F77B5D00E091E9 /* CoolChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAAF43CF20F77B5700E091E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = DPS;
+				TargetAttributes = {
+					AAAF43D620F77B5700E091E9 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					AAAF43EA20F77B5D00E091E9 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = AAAF43D620F77B5700E091E9;
+					};
+					AAAF43F520F77B5D00E091E9 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = AAAF43D620F77B5700E091E9;
+					};
+				};
+			};
+			buildConfigurationList = AAAF43D220F77B5700E091E9 /* Build configuration list for PBXProject "CoolChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAAF43CE20F77B5700E091E9;
+			productRefGroup = AAAF43D820F77B5700E091E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAAF43D620F77B5700E091E9 /* CoolChat */,
+				AAAF43EA20F77B5D00E091E9 /* CoolChatTests */,
+				AAAF43F520F77B5D00E091E9 /* CoolChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAAF43D520F77B5700E091E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAF43E520F77B5D00E091E9 /* LaunchScreen.storyboard in Resources */,
+				AAAF43E220F77B5D00E091E9 /* Assets.xcassets in Resources */,
+				AAAF43E020F77B5700E091E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAF43E920F77B5D00E091E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAF43F420F77B5D00E091E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAAF43D320F77B5700E091E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAF43DD20F77B5700E091E9 /* ViewController.swift in Sources */,
+				AAAF43DB20F77B5700E091E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAF43E720F77B5D00E091E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAF43F020F77B5D00E091E9 /* CoolChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAF43F220F77B5D00E091E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAF43FB20F77B5D00E091E9 /* CoolChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAAF43ED20F77B5D00E091E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAAF43D620F77B5700E091E9 /* CoolChat */;
+			targetProxy = AAAF43EC20F77B5D00E091E9 /* PBXContainerItemProxy */;
+		};
+		AAAF43F820F77B5D00E091E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAAF43D620F77B5700E091E9 /* CoolChat */;
+			targetProxy = AAAF43F720F77B5D00E091E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAAF43DE20F77B5700E091E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAAF43DF20F77B5700E091E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAAF43E320F77B5D00E091E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAAF43E420F77B5D00E091E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAAF43FD20F77B5D00E091E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAAF43FE20F77B5D00E091E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAAF440020F77B5D00E091E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DPS.CoolChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAAF440120F77B5D00E091E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DPS.CoolChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAAF440320F77B5D00E091E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DPS.CoolChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolChat.app/CoolChat";
+			};
+			name = Debug;
+		};
+		AAAF440420F77B5D00E091E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DPS.CoolChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolChat.app/CoolChat";
+			};
+			name = Release;
+		};
+		AAAF440620F77B5D00E091E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DPS.CoolChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolChat;
+			};
+			name = Debug;
+		};
+		AAAF440720F77B5D00E091E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DPS.CoolChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAAF43D220F77B5700E091E9 /* Build configuration list for PBXProject "CoolChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAF43FD20F77B5D00E091E9 /* Debug */,
+				AAAF43FE20F77B5D00E091E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAAF43FF20F77B5D00E091E9 /* Build configuration list for PBXNativeTarget "CoolChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAF440020F77B5D00E091E9 /* Debug */,
+				AAAF440120F77B5D00E091E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAAF440220F77B5D00E091E9 /* Build configuration list for PBXNativeTarget "CoolChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAF440320F77B5D00E091E9 /* Debug */,
+				AAAF440420F77B5D00E091E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAAF440520F77B5D00E091E9 /* Build configuration list for PBXNativeTarget "CoolChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAF440620F77B5D00E091E9 /* Debug */,
+				AAAF440720F77B5D00E091E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAAF43CF20F77B5700E091E9 /* Project object */;
+}
